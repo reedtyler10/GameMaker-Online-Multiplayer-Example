@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"send_name",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

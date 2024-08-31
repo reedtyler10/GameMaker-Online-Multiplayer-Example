@@ -25,6 +25,7 @@ if (_type = network_type_data)
 	{
 		case READ_NAME:
 			assign_name(_client, _buffer);
+			send_fullstate(_client);
 			break;
 	}
 }

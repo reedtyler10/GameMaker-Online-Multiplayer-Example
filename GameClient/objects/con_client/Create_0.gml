@@ -14,4 +14,4 @@ if (connection < 0)
 	conn_string = "Could not connect to server";
 }
 
-buff = buffer_create(1024, buffer_grow, 1);
+pdata = [];

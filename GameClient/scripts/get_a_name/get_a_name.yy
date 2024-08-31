@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_a_name",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
