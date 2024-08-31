@@ -43,6 +43,7 @@
     {"id":{"name":"assign_name","path":"scripts/assign_name/assign_name.yy",},},
     {"id":{"name":"authenticate_client","path":"scripts/authenticate_client/authenticate_client.yy",},},
     {"id":{"name":"define_all","path":"scripts/define_all/define_all.yy",},},
+    {"id":{"name":"generate_walls","path":"scripts/generate_walls/generate_walls.yy",},},
     {"id":{"name":"get_player","path":"scripts/get_player/get_player.yy",},},
     {"id":{"name":"remove_player","path":"scripts/remove_player/remove_player.yy",},},
     {"id":{"name":"request_name","path":"scripts/request_name/request_name.yy",},},

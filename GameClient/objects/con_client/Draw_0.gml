@@ -10,6 +10,12 @@ if (room == rm_connecting)
 
 if (room == rm_game)
 {
+	// Draw walls
+	for(var _wall=0; _wall<array_length(walls); _wall++)
+	{
+		draw_set_color(c_white);
+		draw_line(walls[_wall].x1,walls[_wall].y1,walls[_wall].x2,walls[_wall].y2);
+	}
 	
 	// Draw_players
 	var _draw_players = function(_element, _index)

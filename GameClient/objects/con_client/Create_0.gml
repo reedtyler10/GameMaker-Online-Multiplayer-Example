@@ -15,3 +15,5 @@ if (connection < 0)
 }
 
 pdata = [];
+bdata = [];
+walls = [];

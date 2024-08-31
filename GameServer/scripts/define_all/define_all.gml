@@ -14,4 +14,11 @@ function define_all(){
 		x = 200;
 		y = 200;
 	}
+	global.bullet = function() constructor
+	{
+		x = 0;
+		y = 0;
+		xspd = 0;
+		yspd = 0;
+	}
 }

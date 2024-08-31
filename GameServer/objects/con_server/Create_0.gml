@@ -15,6 +15,8 @@ else
 
 //game data
 pdata = [];
-
+bdata = [];
+walls = [];
+generate_walls();
 
 buff = buffer_create(256, buffer_grow, 1);
