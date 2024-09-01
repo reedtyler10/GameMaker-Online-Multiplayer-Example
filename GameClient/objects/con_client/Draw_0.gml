@@ -18,20 +18,19 @@ if (room == rm_game)
 	}
 	
 	// Draw_players
-	var _draw_players = function(_element, _index)
+
+	for(var _player=0; _player<array_length(pdata); _player++)
 	{
 		draw_set_color(c_white);
 		draw_set_halign(fa_center);
-		draw_text(_element.x,_element.y-48,_element.name);
-		if (_element.is_player == 1)
+		draw_text(pdata[_player].x, pdata[_player].y-48, pdata[_player].name);
+		if (pdata[_player].is_player == 1)
 		{
-			draw_sprite(spr_player, 0, _element.x, _element.y);
+			draw_sprite(spr_player, 0, pdata[_player].x, pdata[_player].y);
 		}
 		else
 		{
-			draw_sprite(spr_enemy, 0, _element.x, _element.y);
+			draw_sprite(spr_enemy, 0, pdata[_player].x, pdata[_player].y);
 		}
 	}
-	
-	array_foreach(pdata,_draw_players);
 }

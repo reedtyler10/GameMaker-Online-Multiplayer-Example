@@ -12,4 +12,8 @@ switch(flag)
 		read_fullstate(_buffer);
 		if (room == rm_connecting) { room_goto(rm_game);}
 		break;
+		
+	case READ_DISCONNECT:
+		read_disconnect(_buffer);
+		break;
 }

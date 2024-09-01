@@ -15,6 +15,7 @@ function read_fullstate( _buffer){
 	{
 		self.pdata[i] = new global.player_data();
 		self.pdata[i].is_player = buffer_read(_buffer, buffer_u8);
+		self.pdata[i].socket = buffer_read(_buffer, buffer_u8);
 		self.pdata[i].name = buffer_read(_buffer, buffer_string);
 		self.pdata[i].is_alive = buffer_read(_buffer, buffer_bool);
 		self.pdata[i].x = buffer_read(_buffer, buffer_u16);

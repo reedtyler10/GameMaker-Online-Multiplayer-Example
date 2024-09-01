@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"broadcast_disconnect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"broadcast_disconnect",
+  "parent":{
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

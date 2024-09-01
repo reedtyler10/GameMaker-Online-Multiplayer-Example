@@ -12,6 +12,7 @@ if (_type = network_type_disconnect)
 {
 	var _sock = async_load[? "socket"];
 	remove_player(_sock);
+	broadcast_disconnect(_sock);
 	addl($"Client {_sock} disconnected");
 	exit;
 }

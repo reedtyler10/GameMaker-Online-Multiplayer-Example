@@ -4,6 +4,7 @@ function define_all(){
 	// Outgoing packet flags
 	#macro SEND_REQUEST_NAME	1
 	#macro SEND_FULLSTATE		2
+	#macro SEND_DISCONNECT		3
 	
 	// Incoming packet flags
 	#macro READ_NAME			1

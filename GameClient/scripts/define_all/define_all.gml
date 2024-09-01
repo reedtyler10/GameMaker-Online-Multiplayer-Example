@@ -9,6 +9,7 @@ function define_all(){
 	// Incoming network flags
 	#macro READ_REQUEST_NAME	1
 	#macro READ_FULLSTATE		2
+	#macro READ_DISCONNECT		3
 	
 	// Input flags
 	#macro KEY_W				0
@@ -21,6 +22,7 @@ function define_all(){
 	// Structures
 	global.player_data = function() constructor
 	{
+		socket = -1;
 		is_player = 0;
 		name = "";
 		is_alive = false;
