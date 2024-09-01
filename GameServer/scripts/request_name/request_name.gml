@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function request_name( _sock){
-	#macro SEND_REQUEST_NAME	1
+	
 	
 	buff = buffer_create(16, buffer_fast, 1);
 	buffer_seek(buff, buffer_seek_start, 0);

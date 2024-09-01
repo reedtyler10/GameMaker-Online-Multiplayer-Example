@@ -23,7 +23,7 @@ if (room == rm_game)
 		draw_set_color(c_white);
 		draw_set_halign(fa_center);
 		draw_text(_element.x,_element.y-48,_element.name);
-		if (_element.socket == 1)
+		if (_element.is_player == 1)
 		{
 			draw_sprite(spr_player, 0, _element.x, _element.y);
 		}

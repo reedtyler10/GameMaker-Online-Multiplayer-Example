@@ -27,6 +27,10 @@ if (_type = network_type_data)
 			assign_name(_client, _buffer);
 			send_fullstate(_client);
 			break;
+			
+		case READ_KEYCHANGE:
+			read_keychange(_client, _buffer);
+			break;
 	}
 }
 

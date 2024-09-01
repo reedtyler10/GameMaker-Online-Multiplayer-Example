@@ -1,6 +1,6 @@
 /// Compile the full game state and send it to the requesting client via their socket
 function send_fullstate(_sock){
-	#macro SEND_FULLSTATE	2
+
 	
 	buff = buffer_create(256, buffer_grow, 1);
 	buffer_seek(self.buff, buffer_seek_start, 0);

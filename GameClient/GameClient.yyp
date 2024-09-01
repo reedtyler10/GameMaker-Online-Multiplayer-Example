@@ -46,6 +46,7 @@
     {"id":{"name":"define_all","path":"scripts/define_all/define_all.yy",},},
     {"id":{"name":"get_a_name","path":"scripts/get_a_name/get_a_name.yy",},},
     {"id":{"name":"read_fullstate","path":"scripts/read_fullstate/read_fullstate.yy",},},
+    {"id":{"name":"send_keychange","path":"scripts/send_keychange/send_keychange.yy",},},
     {"id":{"name":"send_name","path":"scripts/send_name/send_name.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
