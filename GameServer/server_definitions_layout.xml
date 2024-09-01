@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="Default" Platform="Windows" Runtime="VM" Device="Default">
+	<Desktop x="-1920" y="-267" width="1920" height="1009" id="19" title="GameServer - GameMaker" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="True" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[1977, 5449]" workspace_scale="1">
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="con_server" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="parent">
+						<WorkspaceChain left="1236dpi_px" top="5504dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\con_server\Create_0.gml" resource="con_server" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\con_server\Draw_0.gml" resource="con_server" subResource="8_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\con_server\Other_68.gml" resource="con_server" subResource="7_68" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\define_all\define_all.gml" resource="define_all" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="2775dpi_px" top="5505dpi_px" />
+					</DocumentWindow>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eRight" restore_size="306dpi_px" active_tab="0">
+			<DockTab localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="c5c531bb-b6fc-489c-b379-a2450687079b">
+				<Module Command="open_asset_browser">
+					<AssetBrowser sort="AtoZ" foldersFirst="True" zoom="100">
+						<Window left="" right="" top="" bottom="" width="370dpi_px" height="463dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+					</AssetBrowser>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="200dpi_px" active_tab="0">
+			<DockTab localise_title="OutputPanel_Output" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="a8ce68a6-360d-4306-853b-5d495aa52675">
+				<Module Command="open_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SearchResults" cell_sizes="[1000]" layout_id="dock_tab_2" layout_guid="a84acddb-3f85-4751-bdf5-1baad5b0eed3">
+				<Module Command="open_search_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SourceControl" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="668866e2-6b85-4a74-82dc-ca92692b7a55">
+				<Module Command="open_sc_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Source Control" localise_title="OutputPanel_SourceControl" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Breakpoints" cell_sizes="[1000]" layout_id="dock_tab_4" layout_guid="ef4fb331-00c5-4d95-b676-f8b3b2d5c487">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="CompileErrors" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="efa834c6-5f21-4b49-b884-e2a13c7f93ab">
+				<Module Command="show_compile_errors">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Compile Errors" localise_title="CompileErrors" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Feather_LintMessages_Title" cell_sizes="[1000]" layout_id="Diagnostics" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="feather_lint_messages_initialized">
+					<Window left="" right="" top="" bottom="" width="800px" height="600px" flags="Default" title="Feather Messages" localise_title="Feather_LintMessages_Title" />
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+			<RoomEditor />
+		</YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+	</Modules>
+</Project>

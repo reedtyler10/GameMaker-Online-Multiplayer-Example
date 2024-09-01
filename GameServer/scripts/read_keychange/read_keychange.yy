@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"read_keychange",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"read_keychange",
+  "parent":{
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

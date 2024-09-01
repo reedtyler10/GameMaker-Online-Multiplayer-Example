@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_players",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_players",
+  "parent":{
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"send_keychange",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"send_keychange",
+  "parent":{
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
