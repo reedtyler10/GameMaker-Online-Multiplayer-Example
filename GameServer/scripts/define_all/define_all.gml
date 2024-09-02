@@ -25,13 +25,14 @@ function define_all(){
 		
 		
 		name = "";
-		is_alive = false;
+		is_alive = true;
 		can_shoot = false;
 		can_die = 180;
 		key_state = [0,0,0,0,0,0];
 		dir = 0;
-		x = 200;
-		y = 200;
+		var spawn = get_random_spawn();
+		x = spawn.x;
+		y = spawn.y;
 	}
 	global.bullet = function() constructor
 	{

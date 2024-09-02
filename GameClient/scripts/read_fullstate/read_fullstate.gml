@@ -6,7 +6,7 @@ function read_fullstate( _buffer){
 		var _y1 = buffer_read(_buffer, buffer_u16);
 		var _x2 = buffer_read(_buffer, buffer_u16);
 		var _y2 = buffer_read(_buffer, buffer_u16);
-		if (_wall > array_length(self.walls)-1) { continue; } // Don't recreate the wall if you already have it
+		if (_wall < array_length(self.walls)-1) { continue; } // Don't recreate the wall if you already have it
 		self.walls[_wall] = {
 			x1 : _x1,
 			y1 : _y1,

@@ -41,6 +41,7 @@
     {"id":{"name":"rm_server","path":"rooms/rm_server/rm_server.yy",},},
     {"id":{"name":"add_player","path":"scripts/add_player/add_player.yy",},},
     {"id":{"name":"addl","path":"scripts/addl/addl.yy",},},
+    {"id":{"name":"apply_move","path":"scripts/apply_move/apply_move.yy",},},
     {"id":{"name":"assign_name","path":"scripts/assign_name/assign_name.yy",},},
     {"id":{"name":"authenticate_client","path":"scripts/authenticate_client/authenticate_client.yy",},},
     {"id":{"name":"broadcast_disconnect","path":"scripts/broadcast_disconnect/broadcast_disconnect.yy",},},
