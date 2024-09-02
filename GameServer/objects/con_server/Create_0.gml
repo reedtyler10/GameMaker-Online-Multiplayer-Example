@@ -17,7 +17,6 @@ else
 pdata = [];
 bdata = [];
 walls = [];
-bullets = [];
 generate_walls();
 
 alarm[0] = 10;

@@ -1,7 +1,6 @@
 /// Compile the full game state and send it to the requesting client via their socket
 function send_fullstate(_sock){
 
-	
 	buff = buffer_create(256, buffer_grow, 1);
 	buffer_seek(self.buff, buffer_seek_start, 0);
 	buffer_write(buff, buffer_u8, SEND_FULLSTATE);
@@ -37,7 +36,17 @@ function send_fullstate(_sock){
 		buffer_write(buff, buffer_u16, self.pdata[i].y);
 	}
 	
-	// --TODO> Write bullet count then a struct for each bullet
+	// Write bullet count then a struct for each bullet
+	buffer_write(buff, buffer_u8, array_length(self.bdata));
+	for (var _bullet=0; _bullet<array_length(self.bdata); _bullet++)
+	{
+		buffer_write(buff, buffer_u8, self.bdata[_bullet].bid);
+		buffer_write(buff, buffer_u16, self.bdata[_bullet].x);
+		buffer_write(buff, buffer_u16, self.bdata[_bullet].y);
+		buffer_write(buff, buffer_f16, self.bdata[_bullet].xspd);
+		buffer_write(buff, buffer_f16, self.bdata[_bullet].yspd);
+	}
+	
 	network_send_packet(_sock, buff, buffer_get_size(buff));
 	buffer_delete(buff);
 }

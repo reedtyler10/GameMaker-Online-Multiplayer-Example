@@ -35,6 +35,21 @@ function define_all(){
 	}
 	global.bullet = function() constructor
 	{
+		bid = -1;
+		var temp_start = 0;
+		var temp_bid = 0;
+		while(bid == -1)
+		{			
+			for (var i=0; i<array_length(self.bdata); i++)
+			{
+				if (self.bdata[i].bid == temp_bid)
+				{
+					temp_bid++;
+					break;
+				}
+			}
+			if (temp_start == temp_bid) { bid = temp_bid; }
+		}
 		x = 0;
 		y = 0;
 		xspd = 0;

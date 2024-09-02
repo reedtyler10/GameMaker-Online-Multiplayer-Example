@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"new_bullet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"new_bullet",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

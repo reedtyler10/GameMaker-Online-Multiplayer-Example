@@ -42,6 +42,7 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"define_all","path":"scripts/define_all/define_all.yy",},},
     {"id":{"name":"get_a_name","path":"scripts/get_a_name/get_a_name.yy",},},
+    {"id":{"name":"get_bullet","path":"scripts/get_bullet/get_bullet.yy",},},
     {"id":{"name":"get_player","path":"scripts/get_player/get_player.yy",},},
     {"id":{"name":"read_disconnect","path":"scripts/read_disconnect/read_disconnect.yy",},},
     {"id":{"name":"read_fullstate","path":"scripts/read_fullstate/read_fullstate.yy",},},

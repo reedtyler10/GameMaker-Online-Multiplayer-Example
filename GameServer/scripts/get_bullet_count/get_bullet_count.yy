@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_bullet_count",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_bullet_count",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

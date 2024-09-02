@@ -14,7 +14,7 @@ if (room == rm_game)
 	for(var _wall=0; _wall<array_length(walls); _wall++)
 	{
 		draw_set_color(c_white);
-		draw_line(walls[_wall].x1,walls[_wall].y1,walls[_wall].x2,walls[_wall].y2);
+		draw_line(walls[_wall].x1, walls[_wall].y1, walls[_wall].x2, walls[_wall].y2);
 	}
 	
 	// Draw_players
@@ -32,5 +32,11 @@ if (room == rm_game)
 		{
 			draw_sprite_ext(spr_enemy, 0, pdata[_player].x, pdata[_player].y,1,1,pdata[_player].dir,c_white,1);
 		}
+	}
+	
+	// Draw_bullets
+	for (var _bullet=0; _bullet<array_length(bdata); _bullet++)
+	{
+		draw_sprite(spr_bullet,0,bdata[_bullet].x,bdata[_bullet].y);
 	}
 }
