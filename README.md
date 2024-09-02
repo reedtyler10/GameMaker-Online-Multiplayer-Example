@@ -5,3 +5,5 @@ Utilizes a server-client model with an authoritative server and utilizes techniq
 - Client-side prediction
 - Interpolation
 - Game State Correction
+
+Game will be a .io style game where players pick up projectiles to throw at other players to try and kill them. Projectiles can bounce against walls and will continue to do so indefinitely. Players can react to almost colliding with a projectile by deflecting it, which will also increase the projectile's speed.
