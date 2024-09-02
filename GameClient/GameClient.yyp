@@ -38,9 +38,6 @@
   "resources":[
     {"id":{"name":"con_client","path":"objects/con_client/con_client.yy",},},
     {"id":{"name":"con_game","path":"objects/con_game/con_game.yy",},},
-    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_connecting","path":"rooms/rm_connecting/rm_connecting.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"define_all","path":"scripts/define_all/define_all.yy",},},

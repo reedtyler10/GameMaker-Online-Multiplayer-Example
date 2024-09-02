@@ -13,12 +13,19 @@ function read_fullstate( _buffer){
 	var player_count = buffer_read(_buffer, buffer_u8);
 	for(var i=0; i<player_count; i++)
 	{
-		self.pdata[i] = new global.player_data();
-		self.pdata[i].is_player = buffer_read(_buffer, buffer_u8);
-		self.pdata[i].socket = buffer_read(_buffer, buffer_u8);
-		self.pdata[i].name = buffer_read(_buffer, buffer_string);
-		self.pdata[i].is_alive = buffer_read(_buffer, buffer_bool);
-		self.pdata[i].x = buffer_read(_buffer, buffer_u16);
-		self.pdata[i].y = buffer_read(_buffer, buffer_u16);
+		
+		var psock = buffer_read(_buffer, buffer_u8);
+		var pindex = get_player(psock);
+		if (pindex == -1) 
+		{ 
+			self.pdata[i] = new global.player_data();
+			pindex = i;
+		}
+		self.pdata[pindex].socket = psock;
+		self.pdata[pindex].is_player = buffer_read(_buffer, buffer_u8);		
+		self.pdata[pindex].name = buffer_read(_buffer, buffer_string);
+		self.pdata[pindex].is_alive = buffer_read(_buffer, buffer_bool);
+		self.pdata[pindex].x = buffer_read(_buffer, buffer_u16);
+		self.pdata[pindex].y = buffer_read(_buffer, buffer_u16);
 	}
 }

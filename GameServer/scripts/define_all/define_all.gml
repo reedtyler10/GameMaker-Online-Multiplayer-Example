@@ -22,11 +22,14 @@ function define_all(){
 	global.player_data = function() constructor
 	{
 		socket = -1;
+		
+		
 		name = "";
 		is_alive = false;
 		can_shoot = false;
 		can_die = 180;
 		key_state = [0,0,0,0,0,0];
+		dir = 0;
 		x = 200;
 		y = 200;
 	}

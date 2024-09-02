@@ -17,6 +17,7 @@ else
 pdata = [];
 bdata = [];
 walls = [];
+bullets = [];
 generate_walls();
 
-buff = buffer_create(256, buffer_grow, 1);
+alarm[0] = 10;

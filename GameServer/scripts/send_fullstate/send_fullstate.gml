@@ -20,6 +20,8 @@ function send_fullstate(_sock){
 	buffer_write(buff, buffer_u8, array_length(self.pdata));
 	for (var i=0; i<array_length(self.pdata); i++)
 	{
+		buffer_write(buff, buffer_u8, self.pdata[i].socket);
+		
 		if (self.pdata[i].socket = _sock)
 		{
 			buffer_write(buff, buffer_u8, 1); // This struct is you
@@ -28,7 +30,7 @@ function send_fullstate(_sock){
 		{
 			buffer_write(buff, buffer_u8, 0); // This struct is everyone else
 		}
-		buffer_write(buff, buffer_u8, self.pdata[i].socket);
+		
 		buffer_write(buff, buffer_string, self.pdata[i].name); 
 		buffer_write(buff, buffer_bool, self.pdata[i].is_alive);
 		buffer_write(buff, buffer_u16, self.pdata[i].x);

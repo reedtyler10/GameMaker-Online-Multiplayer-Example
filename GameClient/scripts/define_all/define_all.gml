@@ -23,9 +23,11 @@ function define_all(){
 	global.player_data = function() constructor
 	{
 		socket = -1;
+		
 		is_player = 0;
 		name = "";
 		is_alive = false;
+		dir = 0;
 		x = 200;
 		y = 200;
 	}

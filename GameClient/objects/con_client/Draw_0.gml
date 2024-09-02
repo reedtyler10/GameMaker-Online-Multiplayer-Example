@@ -26,11 +26,11 @@ if (room == rm_game)
 		draw_text(pdata[_player].x, pdata[_player].y-48, pdata[_player].name);
 		if (pdata[_player].is_player == 1)
 		{
-			draw_sprite(spr_player, 0, pdata[_player].x, pdata[_player].y);
+			draw_sprite_ext(spr_player, 0, pdata[_player].x, pdata[_player].y,1,1,pdata[_player].dir,c_white,1);
 		}
 		else
 		{
-			draw_sprite(spr_enemy, 0, pdata[_player].x, pdata[_player].y);
+			draw_sprite_ext(spr_enemy, 0, pdata[_player].x, pdata[_player].y,1,1,pdata[_player].dir,c_white,1);
 		}
 	}
 }
