@@ -3,7 +3,7 @@ if (array_length(pdata) > 0)
 {
 	if (get_bullet_count(0) < 250)
 	{
-		var spawn_chance = 16;
+		var spawn_chance = 32;
 		spawn_chance += floor( get_bullet_count(-1) - array_length(pdata) );
 
 

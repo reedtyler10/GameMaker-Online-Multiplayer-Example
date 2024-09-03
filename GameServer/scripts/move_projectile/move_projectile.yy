@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_projectile",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_projectile",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

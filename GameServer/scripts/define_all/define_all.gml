@@ -15,8 +15,8 @@ function define_all(){
 	#macro KEY_D				1
 	#macro KEY_S				2
 	#macro KEY_A				3
-	#macro KEY_LC				10
-	#macro KEY_RC				11
+	#macro KEY_LC				4
+	#macro KEY_RC				5
 
 	// Structures
 	global.player_data = function() constructor
@@ -27,6 +27,7 @@ function define_all(){
 		name = "";
 		is_alive = true;
 		can_shoot = false;
+		can_deflect = 30;
 		can_die = 180;
 		key_state = [0,0,0,0,0,0];
 		dir = 0;
@@ -34,6 +35,7 @@ function define_all(){
 		x = spawn.x;
 		y = spawn.y;
 	}
+	
 	global.bullet = function() constructor
 	{
 		bid = -1;

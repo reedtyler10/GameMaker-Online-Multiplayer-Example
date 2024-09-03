@@ -32,6 +32,9 @@ function send_fullstate(_sock){
 		
 		buffer_write(buff, buffer_string, self.pdata[i].name); 
 		buffer_write(buff, buffer_bool, self.pdata[i].is_alive);
+		buffer_write(buff, buffer_bool, self.pdata[i].can_shoot);
+		buffer_write(buff, buffer_u8, self.pdata[i].can_deflect);
+		buffer_write(buff, buffer_u8, self.pdata[i].can_die);
 		buffer_write(buff, buffer_u16, self.pdata[i].x);
 		buffer_write(buff, buffer_u16, self.pdata[i].y);
 	}

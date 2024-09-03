@@ -27,6 +27,9 @@ function define_all(){
 		is_player = 0;
 		name = "";
 		is_alive = false;
+		can_shoot = false;
+		can_deflect = 30;
+		can_die = 180;
 		dir = 0;
 		x = 200;
 		y = 200;
