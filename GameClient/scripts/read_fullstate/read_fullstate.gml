@@ -28,7 +28,7 @@ function read_fullstate( _buffer){
 		self.pdata[pindex].socket = psock;
 		self.pdata[pindex].is_player = buffer_read(_buffer, buffer_u8);		
 		self.pdata[pindex].name = buffer_read(_buffer, buffer_string);
-		self.pdata[pindex].is_alive = buffer_read(_buffer, buffer_bool);
+		self.pdata[pindex].is_alive = buffer_read(_buffer, buffer_u8);
 		self.pdata[pindex].can_shoot = buffer_read(_buffer, buffer_bool);
 		self.pdata[pindex].can_deflect = buffer_read(_buffer, buffer_u8);
 		self.pdata[pindex].can_die = buffer_read(_buffer, buffer_u8);

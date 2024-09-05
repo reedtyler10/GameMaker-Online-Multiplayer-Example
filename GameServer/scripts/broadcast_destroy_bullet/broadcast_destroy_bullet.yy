@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"broadcast_destroy_bullet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"broadcast_destroy_bullet",
+  "parent":{
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

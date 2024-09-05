@@ -5,7 +5,7 @@ function define_all(){
 	#macro SEND_REQUEST_NAME	1
 	#macro SEND_FULLSTATE		2
 	#macro SEND_DISCONNECT		3
-	#macro SEND_PICKUP			4
+	#macro SEND_DESTROY_BULLET	4
 	
 	// Incoming packet flags
 	#macro READ_NAME			1
@@ -27,7 +27,7 @@ function define_all(){
 		
 		
 		name = "";
-		is_alive = true;
+		is_alive = 0;
 		can_shoot = false;
 		can_deflect = 30;
 		can_die = 180;

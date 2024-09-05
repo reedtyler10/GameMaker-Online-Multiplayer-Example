@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"broadcast_pickup",
+  "%Name":"act_bullets",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"broadcast_pickup",
+  "name":"act_bullets",
   "parent":{
-    "name":"Networking",
-    "path":"folders/Scripts/Networking.yy",
+    "name":"Internal",
+    "path":"folders/Scripts/Internal.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

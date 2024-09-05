@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_players",
+  "%Name":"act_players",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_players",
+  "name":"act_players",
   "parent":{
     "name":"Internal",
     "path":"folders/Scripts/Internal.yy",

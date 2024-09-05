@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_bullets",
+  "%Name":"kill_player",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_bullets",
+  "name":"kill_player",
   "parent":{
     "name":"Internal",
     "path":"folders/Scripts/Internal.yy",
