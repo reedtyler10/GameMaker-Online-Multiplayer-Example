@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"GameClient",
   "resources":[
@@ -46,6 +46,8 @@
     {"id":{"name":"get_player","path":"scripts/get_player/get_player.yy",},},
     {"id":{"name":"read_disconnect","path":"scripts/read_disconnect/read_disconnect.yy",},},
     {"id":{"name":"read_fullstate","path":"scripts/read_fullstate/read_fullstate.yy",},},
+    {"id":{"name":"read_pickup","path":"scripts/read_pickup/read_pickup.yy",},},
+    {"id":{"name":"send_direction","path":"scripts/send_direction/send_direction.yy",},},
     {"id":{"name":"send_keychange","path":"scripts/send_keychange/send_keychange.yy",},},
     {"id":{"name":"send_name","path":"scripts/send_name/send_name.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},

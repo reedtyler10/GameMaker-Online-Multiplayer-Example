@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_projectile",
+  "%Name":"broadcast_pickup",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_projectile",
+  "name":"broadcast_pickup",
   "parent":{
-    "name":"Internal",
-    "path":"folders/Scripts/Internal.yy",
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

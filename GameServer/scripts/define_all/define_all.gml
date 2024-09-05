@@ -5,10 +5,12 @@ function define_all(){
 	#macro SEND_REQUEST_NAME	1
 	#macro SEND_FULLSTATE		2
 	#macro SEND_DISCONNECT		3
+	#macro SEND_PICKUP			4
 	
 	// Incoming packet flags
 	#macro READ_NAME			1
 	#macro READ_KEYCHANGE		2
+	#macro READ_DIRECTION		3
 	
 	// Input flags
 	#macro KEY_W				0
@@ -57,5 +59,8 @@ function define_all(){
 		y = 0;
 		xspd = 0;
 		yspd = 0;
+		
+		owner = 0;
+		can_kill = 5;
 	}
 }

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_projectile",
+  "%Name":"fire_bullet",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_projectile",
+  "name":"fire_bullet",
   "parent":{
-    "name":"Internal",
-    "path":"folders/Scripts/Internal.yy",
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

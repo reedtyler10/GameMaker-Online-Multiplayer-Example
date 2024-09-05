@@ -12,12 +12,13 @@ function move_bullets(){
 			for(var _player=0; _player<array_length(pdata); _player++)
 			{
 				if (point_distance(self.bdata[_bullet].x, self.bdata[_bullet].y,
-									self.pdata[_player].x, self.pdata[_player].y) < 14)
+									self.pdata[_player].x, self.pdata[_player].y) < 24)
 				{
-					if (self.pdata[_player].can_shoot = false)
+					if (self.pdata[_player].can_shoot == false)
 					{
 						self.pdata[_player].can_shoot = true;
 						array_delete(self.bdata, _bullet, 1);
+						broadcast_pickup(_bullet);
 					}
 				}
 			}

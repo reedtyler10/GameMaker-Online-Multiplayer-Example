@@ -4,12 +4,14 @@ function define_all(){
 	// Outgoing network flags
 	#macro SEND_NAME			1
 	#macro SEND_KEYPRESS		2
+	#macro SEND_DIRECTION		3
 		
 	
 	// Incoming network flags
 	#macro READ_REQUEST_NAME	1
 	#macro READ_FULLSTATE		2
 	#macro READ_DISCONNECT		3
+	#macro READ_PICKUP			4
 	
 	// Input flags
 	#macro KEY_W				0

@@ -26,5 +26,5 @@ function new_bullet(){
 	var _xspd = 0;
 	var _yspd = 0;
 	
-	return {bid : _bid, x : _x, y : _y, xspd : _xspd, yspd : _yspd};
+	return {bid : _bid, x : _x, y : _y, xspd : _xspd, yspd : _yspd, owner : 0, can_kill : 5};
 }

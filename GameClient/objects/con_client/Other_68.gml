@@ -16,4 +16,8 @@ switch(flag)
 	case READ_DISCONNECT:
 		read_disconnect(_buffer);
 		break;
+		
+	case READ_PICKUP:
+		read_pickup(_buffer);
+		break;
 }

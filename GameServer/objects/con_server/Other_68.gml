@@ -32,6 +32,10 @@ if (_type = network_type_data)
 		case READ_KEYCHANGE:
 			read_keychange(_client, _buffer);
 			break;
+			
+		case READ_DIRECTION:
+			pdata[get_player(_client)].dir = buffer_read(_buffer, buffer_u16);
+			break;
 	}
 }
 

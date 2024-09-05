@@ -33,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"GameServer",
   "resources":[
@@ -45,7 +45,9 @@
     {"id":{"name":"assign_name","path":"scripts/assign_name/assign_name.yy",},},
     {"id":{"name":"authenticate_client","path":"scripts/authenticate_client/authenticate_client.yy",},},
     {"id":{"name":"broadcast_disconnect","path":"scripts/broadcast_disconnect/broadcast_disconnect.yy",},},
+    {"id":{"name":"broadcast_pickup","path":"scripts/broadcast_pickup/broadcast_pickup.yy",},},
     {"id":{"name":"define_all","path":"scripts/define_all/define_all.yy",},},
+    {"id":{"name":"fire_bullet","path":"scripts/fire_bullet/fire_bullet.yy",},},
     {"id":{"name":"generate_walls","path":"scripts/generate_walls/generate_walls.yy",},},
     {"id":{"name":"get_bullet_count","path":"scripts/get_bullet_count/get_bullet_count.yy",},},
     {"id":{"name":"get_bullet","path":"scripts/get_bullet/get_bullet.yy",},},

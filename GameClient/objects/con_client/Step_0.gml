@@ -5,7 +5,7 @@ for (var i=0; i<array_length(pdata); i++)
 	{
 		x = pdata[i].x + ((mouse_x - pdata[i].x)/4);
 		y = pdata[i].y + ((mouse_y - pdata[i].y)/4);
-		pdata[i].dir = point_direction(pdata[i].x, pdata[i].y, mouse_x, mouse_y);
+		send_direction( floor(point_direction(pdata[i].x, pdata[i].y, mouse_x, mouse_y)) );
 		camera_set_view_pos(view_camera[0], pdata[i].x + ((mouse_x - pdata[i].x)/4 - (view_wport[0]/2)), 
 								pdata[i].y + ((mouse_y - pdata[i].y)/4) - (view_hport[0]/2));
 		break;

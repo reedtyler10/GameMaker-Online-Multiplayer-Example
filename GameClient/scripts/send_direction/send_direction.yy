@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_projectile",
+  "%Name":"send_direction",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_projectile",
+  "name":"send_direction",
   "parent":{
-    "name":"Internal",
-    "path":"folders/Scripts/Internal.yy",
+    "name":"Networking",
+    "path":"folders/Scripts/Networking.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
